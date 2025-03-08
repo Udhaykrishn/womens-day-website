@@ -1,0 +1,65 @@
+/* Custom Styles Beyond Tailwind */
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Gallery Polaroid Effect */
+.gallery-item {
+    transition: all 0.3s ease;
+}
+
+/* Timeline Animation */
+.timeline-item p {
+    transition: all 0.3s ease;
+}
+
+/* Custom Styles for Navbar */
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Navbar Animation */
+nav {
+    transition: all 0.3s ease;
+}
+
+
+
+/* Accordion Animation */
+.accordion-content {
+    transition: max-height 0.3s ease-out, opacity 0.3s ease;
+    max-height: 0;
+    opacity: 0;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 500px; /* Adjust based on content size */
+    opacity: 1;
+}
+
+/* Ensure images fit nicely */
+.accordion-content img {
+    transition: all 0.3s ease;
+}
+
+.grid img {
+    transition: all 0.3s ease;
+}
+
+.grid img:hover {
+    transform: scale(1.05);
+}

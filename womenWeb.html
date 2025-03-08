@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mother Teresa - A Legacy of Love</title>
+    <link rel="stylesheet" href="./womenWeb.css">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/flowbite@1.8.1/dist/flowbite.min.js"></script>
+</head>
+<body class="bg-gray-100 font-roboto text-gray-800">
+
+    <!--navbar-->
+    <nav class="bg-blue-900 text-white py-4 px-6 fixed w-full top-0 z-50 shadow-lg">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <!-- Logo/Brand -->
+            <a href="#" class="text-2xl font-playfair flex items-center">
+                <img src="https://image.pngaaa.com/121/6117121-middle.png" alt="Mother Teresa Icon" class="w-10 h-10 rounded-full mr-2">
+                Mother Teresa
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex space-x-8">
+                <li><a href="#about" class="hover:text-yellow-400 transition duration-300">About</a></li>
+                <li><a href="#achievements" class="hover:text-yellow-400 transition duration-300">Achievements</a></li>
+                <li><a href="#gallery" class="hover:text-yellow-400 transition duration-300">Gallery</a></li>
+                <li><a href="#legacy" class="hover:text-yellow-400 transition duration-300">Legacy</a></li>
+                <li><a href="#quotes" class="hover:text-yellow-400 transition duration-300">Quotes</a></li>
+                <li><a href="#cta" class="bg-yellow-400 text-blue-900 px-4 py-2 rounded-full hover:bg-yellow-500 transition">Get Involved</a></li>
+            </ul>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="https://angelusnews.com/wp-content/uploads/2019/09/41sftpd679_20160805T0913_4770_CNS_MOTHER_TERESA_EVENTS-e1598113253158-1024x896.jpg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu (Hidden by Default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-blue-800 py-4">
+            <ul class="flex flex-col space-y-4 text-center">
+                <li><a href="#about" class="hover:text-yellow-400 transition">About</a></li>
+                <li><a href="#achievements" class="hover:text-yellow-400 transition">Achievements</a></li>
+                <li><a href="#gallery" class="hover:text-yellow-400 transition">Gallery</a></li>
+                <li><a href="#legacy" class="hover:text-yellow-400 transition">Legacy</a></li>
+                <li><a href="#quotes" class="hover:text-yellow-400 transition">Quotes</a></li>
+                <li><a href="#cta" class="bg-yellow-400 text-blue-900 px-4 py-2 rounded-full inline-block hover:bg-yellow-500 transition">Get Involved</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-900 text-white py-16 text-center relative">
+        <img src="https://angelusnews.com/wp-content/uploads/2019/09/41sftpd679_20160805T0913_4770_CNS_MOTHER_TERESA_EVENTS-e1598113253158-1024x896.jpg" alt="Mother Teresa" class="mx-auto rounded-full w-40 h-40 object-cover shadow-lg">
+        <h1 class="text-5xl font-playfair mt-4">Mother Teresa</h1>
+        <p class="text-xl italic mt-2">"Do small things with great love."</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-playfair text-blue-900 text-center mb-8">About Her Life</h2>
+        <p class="text-lg leading-relaxed">Born in 1910 as Agnes Gonxha Bojaxhiu in Skopje, Mother Teresa dedicated her life to serving the poorest of the poor. She founded the Missionaries of Charity in 1950, a global organization that continues her mission of compassion and service.</p>
+    </section>
+
+<!-- Achievements & Milestones Section -->
+<section id="achievements" class="py-16 bg-white">
+    <h2 class="text-3xl font-playfair text-blue-900 text-center mb-12">Achievements & Milestones</h2>
+    <div id="accordion-collapse" data-accordion="collapse" class="max-w-3xl mx-auto">
+        <!-- Item 1: Nobel Peace Prize -->
+        <h2 id="accordion-collapse-heading-1">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-blue-900 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 hover:bg-blue-100 bg-blue-50 transition duration-300" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                <span>1979 - Nobel Peace Prize</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+        </h2>
+        <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+            <div class="p-5 border border-b-0 border-gray-200 bg-white">
+                <p class="mb-2 text-gray-700">Mother Teresa received the Nobel Peace Prize in 1979 for her extraordinary efforts in alleviating the suffering of the poor and promoting peace worldwide. She humbly accepted it "in the name of the hungry, the naked, the homeless."</p>
+            </div>
+        </div>
+
+        <!-- Item 2: Missionaries of Charity -->
+        <h2 id="accordion-collapse-heading-2">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-blue-900 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 hover:bg-blue-100 bg-blue-50 transition duration-300" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+                <span>1950 - Founded Missionaries of Charity</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+        </h2>
+        <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+            <div class="p-5 border border-b-0 border-gray-200 bg-white">
+                <p class="mb-2 text-gray-700">In 1950, Mother Teresa established the Missionaries of Charity in Kolkata, a congregation dedicated to serving "the poorest of the poor." This marked the beginning of her global mission of love and service.</p>
+
+            </div>
+        </div>
+
+        <!-- Item 3: Padma Shri Award -->
+        <h2 id="accordion-collapse-heading-3">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-blue-900 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 hover:bg-blue-100 bg-blue-50 transition duration-300" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+                <span>1962 - Padma Shri Award</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+        </h2>
+        <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+            <div class="p-5 border border-b-0 border-gray-200 bg-white">
+                <p class="mb-2 text-gray-700">India honored Mother Teresa with the Padma Shri in 1962, recognizing her immense contributions to society through her compassionate work with the underprivileged.</p>
+               
+            </div>
+        </div>
+
+        <!-- Item 4: Bharat Ratna -->
+        <h2 id="accordion-collapse-heading-4">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-blue-900 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 hover:bg-blue-100 bg-blue-50 transition duration-300" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+                <span>1980 - Bharat Ratna</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+        </h2>
+        <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+            <div class="p-5 border border-b-0 border-gray-200 bg-white">
+                <p class="mb-2 text-gray-700">Mother Teresa was awarded India’s highest civilian honor, the Bharat Ratna, in 1980 for her humanitarian efforts that touched millions of lives across the nation and beyond.</p>
+                
+            </div>
+        </div>
+
+        <!-- Item 5: Order of Merit -->
+        <h2 id="accordion-collapse-heading-5">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-blue-900 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 hover:bg-blue-100 bg-blue-50 transition duration-300" data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
+                <span>1983 - Order of Merit (UK)</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+        </h2>
+        <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
+            <div class="p-5 border border-b-0 border-gray-200 bg-white">
+                <p class="mb-2 text-gray-700">The United Kingdom bestowed the Order of Merit upon Mother Teresa in 1983, acknowledging her tireless dedication to the service of humanity.</p>
+                
+            </div>
+        </div>
+
+        <!-- Item 6: Honorary U.S. Citizenship -->
+        <h2 id="accordion-collapse-heading-6">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-blue-900 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 hover:bg-blue-100 bg-blue-50 transition duration-300" data-accordion-target="#accordion-collapse-body-6" aria-expanded="false" aria-controls="accordion-collapse-body-6">
+                <span>1996 - Honorary U.S. Citizenship</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+        </h2>
+        <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-6">
+            <div class="p-5 border border-b-0 border-gray-200 bg-white">
+                <p class="mb-2 text-gray-700">Mother Teresa was granted honorary citizenship of the United States in 1996, one of only a few individuals to receive this rare honor, in recognition of her global humanitarian impact.</p>
+                
+            </div>
+        </div>
+
+        <!-- Item 7: Canonization -->
+        <h2 id="accordion-collapse-heading-7">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-blue-900 border border-gray-200 rounded-b-xl focus:ring-4 focus:ring-blue-200 hover:bg-blue-100 bg-blue-50 transition duration-300" data-accordion-target="#accordion-collapse-body-7" aria-expanded="false" aria-controls="accordion-collapse-body-7">
+                <span>2016 - Canonization as Saint Teresa</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+        </h2>
+        <div id="accordion-collapse-body-7" class="hidden" aria-labelledby="accordion-collapse-heading-7">
+            <div class="p-5 border border-t-0 border-gray-200 bg-white">
+                <p class="mb-2 text-gray-700">On September 4, 2016, Mother Teresa was canonized by Pope Francis as Saint Teresa of Calcutta, celebrating her life of holiness and service to the poor.</p>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Gallery Section -->
+   <!-- Images Section -->
+<section id="images" class="py-16 bg-gray-50">
+    <h2 class="text-3xl font-playfair text-blue-900 text-center mb-12">Moments of Her Legacy</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto px-6">
+        <!-- Column 1 -->
+        <div class="grid gap-4">
+            <div>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.-ehnfymuoJILxT0l8WzGsQHaE_&pid=Api&P=0&h=180" alt="Crowds at Mother Teresa’s canonization, 2016" class="w-full h-48 object-cover rounded-lg shadow-sm mt-4">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://tse2.mm.bing.net/th?id=OIP.9mH19c8qAEBbhq8VdEBgUQHaHU&pid=Api&P=0&h=180" alt="Mother Teresa receiving the Nobel Peace Prize, 1979">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://tse3.mm.bing.net/th?id=OIP.Umf0D2cKb6VwxBMxMv3puwHaE8&pid=Api&P=0&h=180" alt="Mother Teresa in prayer, 1986">
+            </div>
+        </div>
+        <!-- Column 2 -->
+        <div class="grid gap-4">
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://tse2.mm.bing.net/th?id=OIP.f9AwulzmFJZG2qm9fPwPrAAAAA&pid=Api&P=0&h=180" alt="Mother Teresa tending to the sick in Kolkata, 1980">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmB5oW4PjADy2agrlPCqFshX7uV3VHQYabsw&s" alt="Missionaries of Charity sisters at work, 1990s">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://tse2.mm.bing.net/th?id=OIP.RxmT43W3OWKT5HI-ppGkPwHaE6&pid=Api&P=0&h=180" alt="Mother Teresa smiling with community members, 1987">
+            </div>
+        </div>
+        <!-- Column 3 -->
+        <div class="grid gap-4">
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://tse2.mm.bing.net/th?id=OIP.ve3EsyhWzAsHWkE7BS8DYwHaEH&pid=Api&P=0&h=180" alt="Crowds at Mother Teresa’s canonization, 2016">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://tse1.mm.bing.net/th?id=OIP.RsBsjQkjzd_BAJGoxiiUXwHaE8&pid=Api&P=0&h=180" alt="Mother Teresa meeting Pope John Paul II, 1986">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXvAszTJM4ZrD2-ZI3hNMbIPfEm_Ly6vcrkg&s" alt="Close-up of Mother Teresa’s hands helping, 1980s">
+            </div>
+        </div>
+        <!-- Column 4 -->
+        <div class="grid gap-4">
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSORFuUZHcZT2_IWfx71DNukJCwaY1Be1aSbw&s" alt="Missionaries of Charity helping globally, 2000s">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlXDgMbWsY4CR2RVc4kH3TMqJ2yHq1PQHNrA&s" alt="Young Mother Teresa in her early mission days, 1930s">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-md hover:shadow-lg transition" src="https://tse1.mm.bing.net/th?id=OIP.qzrAYMoLHXDse4-Bhvp5LgAAAA&pid=Api&P=0&h=180" alt="Mother Teresa in her iconic blue-and-white sari, 1990s">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Quotes Carousel -->
+    <section id="quotes" class="py-16 bg-white">
+        <h2 class="text-3xl font-playfair text-blue-900 text-center mb-12">Inspirational Quotes</h2>
+        <div id="carousel" class="max-w-2xl mx-auto text-center text-lg italic text-gray-700">
+            <div class="carousel-item">"Peace begins with a smile."</div>
+            <div class="carousel-item hidden">"Let us touch the dying, the poor, the lonely."</div>
+            <div class="carousel-item hidden">"Love begins at home."</div>
+        </div>
+    </section>
+    
+    <!-- Call-to-Action -->
+    <section id="cta" class="py-16 bg-gradient-to-r from-blue-900 to-blue-600 text-white text-center">
+        <h2 class="text-3xl font-playfair mb-6">Join Her Mission</h2>
+        <p class="text-lg mb-8">Support the legacy of love and kindness today.</p>
+        <a href="#" class="inline-block bg-yellow-400 text-blue-900 px-8 py-3 rounded-full font-bold shadow-lg hover:bg-yellow-500 transition">Get Involved</a>
+    </section>
+    
+    <!-- JavaScript -->
+    <script src="./womenWeb.js"></script>
+</body>
+</html>
